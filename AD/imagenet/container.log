@@ -1,0 +1,497 @@
+LIBRARY_PATH=/usr/local/cuda/lib64/stubs:
+DALI_BUILD=1030354
+REQNAME=QRLOGIN
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PYTHONIOENCODING=utf-8
+JOB_ID=JOB_ID
+PYTORCH_BUILD_NUMBER=0
+MAIL=/var/spool/mail/USER
+QTINC=/usr/lib64/qt-3.3/include
+USER=USER
+SGE_CWD_PATH=/home/USER
+CVS_RSH=ssh
+SGE_CLUSTER_NAME=abci
+IBV_DRIVERS=/tmp/tmp.GMV2yfONR1/usr/lib/libibverbs/libmlx5
+COCOAPI_VERSION=2.0+nv0.3.1
+NQUEUES=1
+LD_LIBRARY_PATH=/tmp/tmp.GMV2yfONR1/usr/lib:/usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/.singularity.d/libs
+SGE_TASK_ID=undefined
+SHLVL=3
+SGE_O_MAIL=/var/spool/mail/USER
+HOME=/home/USER
+MASTER_PORT=53394
+ARC=lx-amd64
+SGE_HGR_TASK_rt_Clarge=0
+QTDIR=/usr/lib64/qt-3.3
+ENVIRONMENT=BATCH
+QUEUE=gpu
+CUDA_CACHE_DISABLE=1
+SGE_HGR_rt_Csmall=0 1 2 3
+SGE_EXECD_PORT=16455
+RESTARTED=0
+SGE_LOCALDIR=/local/JOB_ID.1.gpu
+PS1=Singularity> 
+SGE_STDIN_PATH=/dev/null
+NHOSTS=1
+ENV=/etc/shinit_v2
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SGE_O_HOME=/home/USER
+NVIDIA_BUILD_ID=9332039
+SGE_HGR_TASK_rt_Glarge=0
+_LMFILES_=/apps/modules/modulefiles/runtimes/singularity/2.6.1
+SGE_O_SHELL=/bin/bash
+OMPI_MCA_btl_vader_single_copy_mechanism=none
+NVM_DIR=/usr/local/nvm
+SGE_HGR_rt_Gsmall=0 1 2 3
+CUDA_VERSION=10.2.89
+NSIGHT_SYSTEMS_VERSION=2019.6.1
+TORCH_CUDA_ARCH_LIST=5.2 6.0 6.1 7.0 7.5+PTX
+CUBLAS_VERSION=10.2.2.89
+SGE_STDERR_PATH=/dev/null
+NSLOTS=80
+SGE_O_PATH=/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bb/system/uge/latest/bin/lx-amd64:/home/USER/.local/bin:/home/USER/bin
+LOGNAME=USER
+SGE_RERUN_JOB=0
+PYTORCH_BUILD_VERSION=1.4.0a0+a5b4d78
+TRT_VERSION=7.0.0.11
+SGE_TASK_LAST=undefined
+NVIDIA_REQUIRE_CUDA=cuda>=9.0
+MOFED_VERSION=4.4-1.0.0
+SGE_POSIX_PRIORITY=-450
+NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
+JOB_SCRIPT=QRLOGIN
+TERM=screen-256color
+QT_GRAPHICSSYSTEM_CHECKED=1
+SGE_RERUN_REQUESTED=2
+SGE_JOB_HOSTLIST=/var/spool/uge/execd/g0424/active_jobs/JOB_ID.1/hostlist
+NVIDIA_PYTORCH_VERSION=20.01
+HISTCONTROL=ignoredups
+SGE_JOB_SERVICE_TYPE=On-demand
+SGE_CLIENT_NAME=qrsh
+SGE_ROOT=/bb/system/uge/latest
+PATH=/tmp/tmp.GMV2yfONR1/usr/bin:/opt/conda/bin:/opt/cmake-3.14.6-Linux-x86_64/bin/:/usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/tensorrt/bin
+SGE_HGR_rt_F=0
+PYTORCH_VERSION=1.4.0a0+a5b4d78
+SGE_ARCH=lx-amd64
+SGE_HGR_TASK_rt_Csmall=0 1 2 3
+CUDA_DRIVER_VERSION=440.33.01
+SGE_TASK_FIRST=undefined
+JUPYTER_PORT=8888
+USE_SYSTEMD=true
+SGE_CELL=abci
+_CUDA_COMPAT_STATUS=CUDA Driver OK
+SGE_JOB_SPOOL_DIR=/var/spool/uge/execd/g0424/active_jobs/JOB_ID.1
+SGE_RESOURCE_NUM=1
+PE_HOSTFILE=/var/spool/uge/execd/g0424/active_jobs/JOB_ID.1/pe_hostfile
+LANG=en_US.UTF-8
+HISTSIZE=1000
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SGE_HGR_TASK_rt_Gsmall=0 1 2 3
+TENSORBOARD_PORT=6006
+PE=perack13
+CUDNN_VERSION=7.6.5.32
+NSIGHT_COMPUTE_VERSION=2019.5.0.14
+SGE_O_WORKDIR=/home/USER/Author-Kit
+DALI_VERSION=0.17.0
+SGE_RESOURCE_TYPE=rt_F
+OPENMPI_VERSION=3.1.4
+SGE_TASK_STEPSIZE=undefined
+SHELL=/bin/sh
+SGE_STDOUT_PATH=/dev/null
+SGE_O_HOST=es1
+SGE_WALLTIME_SEC=3600
+SGE_RSH_COMMAND=builtin
+REQUEST=QRLOGIN
+SINGULARITY_CONTAINER=pytorch-20.01-py3.simg
+JOB_NAME=QRLOGIN
+BASH_ENV=/etc/bash.bashrc
+LC_ALL=C.UTF-8
+SGE_HGR_TASK_rt_F=0
+PWD=/home/USER/Author-Kit
+LOADEDMODULES=singularity/2.6.1
+SGE_QMASTER_PORT=16454
+SGE_HGR_rt_Clarge=0
+XDG_DATA_DIRS=/home/USER/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+SGE_O_LOGNAME=USER
+_CUDA_COMPAT_PATH=/usr/local/cuda/compat
+NVIDIA_VISIBLE_DEVICES=all
+NCCL_VERSION=2.5.6
+SINGULARITY_NAME=pytorch-20.01-py3.simg
+QRSH_COMMAND=/var/spool/uge/execd/g0424/job_scripts/JOB_ID
+MANPATH=/apps/singularity/2.6.1/share/man:/bb/system/uge/latest/man:/usr/share/man:/usr/local/share/man
+MODULEPATH=/apps/modules/modulefiles/compilers:/apps/modules/modulefiles/devtools:/apps/modules/modulefiles/gpgpu:/apps/modules/modulefiles/mpi:/apps/modules/modulefiles/runtimes:/apps/modules/modulefiles/utils
+SGE_HGR_rt_Glarge=0
+QTLIB=/usr/lib64/qt-3.3/lib
+MODULESHOME=/usr/share/Modules
+SGE_BINARY_PATH=/bb/system/uge/latest/bin/lx-amd64
++ lsb_release -a
+collect_environment.sh: 10: collect_environment.sh: lsb_release: not found
++ uname -a
+Linux g0424.abci.local 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
++ lscpu
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              80
+On-line CPU(s) list: 0-79
+Thread(s) per core:  2
+Core(s) per socket:  20
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+Stepping:            4
+CPU MHz:             2583.105
+CPU max MHz:         3700.0000
+CPU min MHz:         1000.0000
+BogoMIPS:            4800.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            28160K
+NUMA node0 CPU(s):   0-19,40-59
+NUMA node1 CPU(s):   20-39,60-79
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 intel_ppin intel_pt mba tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke
++ cat /proc/meminfo
+MemTotal:       394480496 kB
+MemFree:        372833812 kB
+MemAvailable:   375941448 kB
+Buffers:           16328 kB
+Cached:          5272284 kB
+SwapCached:         6300 kB
+Active:          3456168 kB
+Inactive:        3151004 kB
+Active(anon):    1881580 kB
+Inactive(anon):  1304996 kB
+Active(file):    1574588 kB
+Inactive(file):  1846008 kB
+Unevictable:     4194304 kB
+Mlocked:         4194304 kB
+SwapTotal:       4200960 kB
+SwapFree:        4182784 kB
+Dirty:              1812 kB
+Writeback:             0 kB
+AnonPages:       5507764 kB
+Mapped:           569528 kB
+Shmem:           1868052 kB
+Slab:            6058380 kB
+SReclaimable:     825100 kB
+SUnreclaim:      5233280 kB
+KernelStack:       75120 kB
+PageTables:        21264 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    201441208 kB
+Committed_AS:    8768960 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1809664 kB
+VmallocChunk:   34156398968 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   4542464 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    34314908 kB
+DirectMap2M:    359475200 kB
+DirectMap1G:     9437184 kB
++ inxi -F -c0
+collect_environment.sh: 14: collect_environment.sh: inxi: not found
++ lsblk -a
+NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0     7:0    0   3.2G  1 loop 
+loop1     7:1    0         1 loop 
+loop2     7:2    0         1 loop 
+loop3     7:3    0         1 loop 
+sda       8:0    0 119.2G  0 disk 
+├─sda1    8:1    0     2G  0 part 
+├─sda2    8:2    0    16G  0 part /.singularity.d/libs/libgpfs.so
+├─sda3    8:3    0    48G  0 part /var/tmp
+├─sda4    8:4    0     1K  0 part 
+├─sda5    8:5    0     4G  0 part [SWAP]
+├─sda6    8:6    0    32G  0 part 
+└─sda7    8:7    0  17.2G  0 part /tmp
+nvme0n1 259:0    0   1.5T  0 disk /local
++ lsscsi -s
+collect_environment.sh: 16: collect_environment.sh: lsscsi: not found
++ module list
+collect_environment.sh: 17: collect_environment.sh: module: not found
++ nvidia-smi
+Tue Mar  3 09:35:23 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.33.01    Driver Version: 440.33.01    CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  Off  | 00000000:3D:00.0 Off |                    0 |
+| N/A   25C    P0    58W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2...  Off  | 00000000:3E:00.0 Off |                    0 |
+| N/A   22C    P0    41W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2...  Off  | 00000000:B1:00.0 Off |                    0 |
+| N/A   23C    P0    41W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2...  Off  | 00000000:B2:00.0 Off |                    0 |
+| N/A   25C    P0    40W / 300W |      0MiB / 16160MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
++ cat
++ lshw -short -quiet -sanitize
+collect_environment.sh: 19: collect_environment.sh: lshw: not found
++ lspci
+collect_environment.sh: 19: collect_environment.sh: lspci: not found
++ pip freeze
+absl-py==0.9.0
+alabaster==0.7.12
+alembic==1.3.2
+apex==0.1
+appdirs==1.4.3
+ascii-graph==1.5.1
+asn1crypto==1.2.0
+attrs==19.3.0
+audioread==2.1.8
+Babel==2.7.0
+backcall==0.1.0
+beautifulsoup4==4.8.1
+bleach==3.1.0
+bokeh==1.4.0
+boto3==1.10.44
+botocore==1.13.44
+cachetools==4.0.0
+certifi==2019.11.28
+cffi==1.12.3
+chainerio==0.1.1
+chardet==3.0.4
+Click==7.0
+cloudpickle==1.2.2
+codecov==2.0.15
+conda==4.8.0
+conda-build==3.18.11
+conda-package-handling==1.6.0
+configparser==4.0.2
+coverage==5.0
+cryptography==2.8
+cycler==0.10.0
+cymem==2.0.2
+Cython==0.29.14
+cytoolz==0.9.0.1
+databricks-cli==0.9.1
+DataProperty==0.43.1
+decorator==4.4.1
+defusedxml==0.6.0
+dill==0.2.9
+docker==4.1.0
+docutils==0.15.2
+entrypoints==0.3
+fasteners==0.15
+fastrlock==0.4
+filelock==3.0.12
+flake8==3.7.9
+Flask==1.1.1
+future==0.17.1
+gitdb2==2.0.6
+GitPython==3.0.5
+glob2==0.7
+google-auth==1.10.0
+google-auth-oauthlib==0.4.1
+gorilla==0.3.0
+grpcio==1.26.0
+gunicorn==20.0.4
+h5py==2.10.0
+html2text==2019.9.26
+hypothesis==4.50.8
+idna==2.8
+imageio==2.6.1
+imagesize==1.1.0
+importlib-metadata==1.3.0
+inflect==3.0.2
+ipdb==0.12.3
+ipykernel==5.1.3
+ipython==7.10.2
+ipython-genutils==0.2.0
+itsdangerous==1.1.0
+jedi==0.15.1
+Jinja2==2.10.3
+jmespath==0.9.4
+joblib==0.14.0
+json5==0.8.5
+jsonschema==3.2.0
+jupyter-client==5.3.4
+jupyter-core==4.6.1
+jupyter-tensorboard==0.1.10
+jupyterlab==1.0.4
+jupyterlab-server==1.0.6
+jupytext==1.3.0
+kaggle==1.5.6
+kiwisolver==1.1.0
+krbticket==1.0.3
+libarchive-c==2.8
+librosa==0.6.3
+lief==0.9.0
+llvmlite==0.28.0
+lmdb==0.98
+Mako==1.1.0
+Markdown==3.1.1
+MarkupSafe==1.1.1
+maskrcnn-benchmark==0.1
+matplotlib==3.1.2
+mbstrdecoder==0.8.1
+mccabe==0.6.1
+mistune==0.8.4
+mlflow==1.5.0
+mlperf-compliance==0.0.10
+mock==3.0.5
+monotonic==1.5
+more-itertools==8.0.2
+mpi4py==3.0.2
+msgfy==0.0.7
+msgpack==0.6.2
+msgpack-numpy==0.4.3.2
+msgpack-python==0.5.6
+murmurhash==1.0.2
+nbconvert==5.6.1
+nbformat==4.4.0
+networkx==2.4
+nltk==3.4.5
+notebook==6.0.2
+numba==0.43.1
+numpy==1.17.2
+nvidia-dali==0.17.0
+oauthlib==3.1.0
+onnx==1.6.0
+opencv-python==4.1.1.26
+packaging==19.2
+pandas==0.25.1
+pandocfilters==1.4.2
+parso==0.5.2
+pathvalidate==0.29.0
+pexpect==4.7.0
+pickleshare==0.7.5
+Pillow==6.1.0
+Pillow-SIMD==5.3.0.post1
+pkginfo==1.5.0.1
+plac==0.9.6
+pluggy==0.13.1
+preshed==2.0.1
+progressbar==2.5
+prometheus-client==0.7.1
+prometheus-flask-exporter==0.12.1
+prompt-toolkit==3.0.2
+protobuf==3.7.1
+psutil==5.6.3
+ptyprocess==0.6.0
+py==1.8.0
+pyarrow==0.14.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.7
+pybind11==2.4.3
+pycocotools==2.0+nv0.3.1
+pycodestyle==2.5.0
+pycosat==0.6.3
+pycparser==2.19
+pycuda==2019.1.2
+pydot==1.4.1
+pyflakes==2.1.1
+Pygments==2.5.2
+pyOpenSSL==19.1.0
+pyparsing==2.4.5
+pyrsistent==0.15.6
+PySocks==1.7.1
+pytablewriter==0.46.1
+pytest==5.3.2
+pytest-cov==2.8.1
+pytest-pythonpath==0.7.3
+python-dateutil==2.8.0
+python-editor==1.0.4
+python-hostlist==1.18
+python-nvd3==0.15.0
+python-slugify==4.0.0
+pytools==2019.1.1
+pytorch-transformers==1.1.0
+pytz==2019.2
+PyWavelets==1.1.1
+PyYAML==5.1.2
+pyzmq==18.1.1
+querystring-parser==1.2.4
+regex==2018.1.10
+requests==2.22.0
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+revtok==0.0.3
+rsa==4.0
+ruamel-yaml==0.15.87
+s3transfer==0.2.1
+sacrebleu==1.2.10
+sacremoses==0.0.35
+scikit-image==0.16.2
+scikit-learn==0.21.3
+scipy==1.3.3
+Send2Trash==1.5.0
+sentencepiece==0.1.85
+simplejson==3.17.0
+six==1.12.0
+smmap2==2.0.5
+snowballstemmer==2.0.0
+SoundFile==0.10.3.post1
+soupsieve==1.9.5
+sox==1.3.7
+spacy==2.0.16
+Sphinx==2.3.0
+sphinx-rtd-theme==0.4.3
+sphinxcontrib-applehelp==1.0.1
+sphinxcontrib-devhelp==1.0.1
+sphinxcontrib-htmlhelp==1.0.2
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.2
+sphinxcontrib-serializinghtml==1.1.3
+SQLAlchemy==1.3.12
+sqlparse==0.3.0
+SSD==0.1
+subword-nmt==0.3.3
+tabledata==0.9.1
+tabulate==0.8.6
+tensorboard==2.1.0
+tensorrt==7.0.0.11
+terminado==0.8.3
+testpath==0.4.4
+text-unidecode==1.3
+thinc==6.12.1
+toml==0.10.0
+toolz==0.10.0
+torch==1.4.0a0+a5b4d78
+torchtext==0.4.0
+torchvision==0.5.0a0
+tornado==6.0.3
+tqdm==4.36.1
+traitlets==4.3.3
+typepy==0.6.0
+typing==3.6.6
+typing-extensions==3.6.6
+ujson==1.35
+Unidecode==1.1.1
+urllib3==1.24.3
+wcwidth==0.1.7
+webencodings==0.5.1
+websocket-client==0.56.0
+Werkzeug==0.16.0
+wrapt==1.10.11
+yacs==0.1.6
+zipp==0.6.0
++ python --version
+Python 3.6.9 :: Anaconda, Inc.

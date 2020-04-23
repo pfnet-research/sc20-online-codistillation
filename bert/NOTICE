@@ -1,0 +1,11 @@
+BERT PyTorch
+
+This repository includes software from
+* https://github.com/huggingface/pytorch-pretrained-BERT and 
+* https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling/BERT
+* https://github.com/allenai/allennlp
+licensed under the Apache License 2.0.
+
+bert/file_utils.py is from https://github.com/allenai/allennlp.
+The other python scripts are from https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling/BERT,
+and they are originally from https://github.com/huggingface/pytorch-pretrained-BERT.

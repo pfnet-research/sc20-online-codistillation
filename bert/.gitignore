@@ -1,0 +1,8 @@
+*
+!*/
+!/.gitignore
+!/bert/*
+!/scripts/*.bash
+!/LICENSE
+!/NOTICE
+!/README.md

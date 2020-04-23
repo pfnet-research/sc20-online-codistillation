@@ -1,0 +1,4 @@
+This repository includes software from
+* https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Classification/ConvNets/ (dali_dataloader.py)
+* https://github.com/pytorch/pytorch (lars.py)
+licensed under BSD-style licenses.
